@@ -75,6 +75,13 @@ img {
 /*media*/
 @media screen and (max-width: 420px) {
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
 .row {
   width: 100%;
 }
@@ -90,5 +97,9 @@ background-color: sandybrown;
 #lezioni .row>.right {
 width: 100%;
 background-color: sandybrown;
+}
+
+.container {
+  padding: 20px;
 }
 }
