@@ -75,15 +75,20 @@ img {
 /*media*/
 @media screen and (max-width: 420px) {
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-    background-color: sandybrown;
-  }
-  
-  #steps .row>.left,
+.row {
+  width: 100%;
+}
+
+#steps .row>.left,
 #steps .row>.central,
-#steps .row>.right { 
-    width: 100%;
-    background-color: sandybrown;
+#steps .row>.right {
+width: 100%;
+background-color: sandybrown;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+width: 100%;
+background-color: sandybrown;
+}
 }
